@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="Layer_2" display="none">
+	<rect x="-59" y="-25.5" display="inline" width="126.25" height="80"/>
+</g>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<path fill="#FFFFFF" d="M3.993,12.201c-0.401-0.224-0.762-0.702-0.818-1.285c-0.035-0.345-0.14-0.914-0.129-1.287
+			c0.062-1.423,0.14-1.832,1.158-2.565c1.789-1.31,4.026-1.839,6.094-2.044c0.832-0.083,1.704-0.127,2.545,0.029
+			c1.064,0.2,2.377,0.745,2.958,2.191c0.2,0.503-0.253,1.355-0.438,1.853l-3.153,8.072l0.04,0.04
+			c0.158-0.102,0.379-0.057,0.412,0.265c0.042,0.431-0.379,1.258-0.548,1.6c-0.249,0.525-0.791,1.867-1.306,1.921
+			c-0.417,0.039-2.261-0.083-2.321-0.688c-0.213-2.135,2.354-7.469,3.258-9.368l1.394-2.929c-2.86,0.35-5.646,1.129-8.269,2.501
+			l0.002,0.044c0.239,0.042,1.356,0.083,1.399,0.515c0.045,0.454-0.526,1.484-1.191,1.571L3.993,12.201z"/>
+		<path fill="#FFFFFF" d="M10.954,4.966c0,0,11.459-0.903,12.681-0.829c0.465,0.028,1.177,2.349,0.355,2.715
+			c-1.071,0.477-2.631,0.831-5.159,0.572c-0.787-0.08-2.539-0.084-7.909,0.946L10.954,4.966z"/>
+	</g>
+</mask>
+<circle mask="url(#SVGID_1_)" fill="#58595B" cx="12" cy="12" r="12"/>
+</svg>

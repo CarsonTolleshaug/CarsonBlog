@@ -1,6 +1,6 @@
-baseURL       = "http://example.org/"
+baseURL       = "https://carson.tolleshaug.org/"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Carson Tolleshaug"
 theme         = "roxo"
 summarylength = 25
 
@@ -22,19 +22,19 @@ summarylength = 25
   [[menu.nav]]
     name    = "Blog"
     url     = "blog"
-    weight  = 4
+    weight  = 3
 
 # Site Params
 [params]
-  logo = "images/logo.png"
+  logo = "images/logo.svg"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Carson Tolleshaug | Software Engineer"
+  author = "Carson Tolleshaug"
   # Google Analitycs
-  googleAnalitycsID = "Your ID"
+  #googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  #formspreeFormUrl  = "https://formspree.io/myykjpje"
 
   # Contact Form
   [params.contactForm]
@@ -52,23 +52,17 @@ summarylength = 25
       value = "wd"
       title  = "Web Design"
   
-  # Navbar Action Button
-  [params.navAction]
-    status  = true
-    name    = "Get in touch"
-    url     = "contact"
-  
 
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    background_image      = "images/backgrounds/hero-area.webp"
+    heading               = "Carson Tolleshaug"
+    tagline               = "XP, Full-Stack, Software Engineer"
+    primary_button        = "Code Projects"
     primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
-    secondary_button_url  = "contact"
+    secondary_button      = "Recent Blog Posts"
+    secondary_button_url  = "blog"
 
   [params.portfolio]
     enable    = true
