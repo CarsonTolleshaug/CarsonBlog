@@ -38,6 +38,50 @@ body{
   margin-left: inherit !important;
 }
 
+.site-expertise {
+  background: inherit !important;
+}
+
+.col-center {
+  text-align: center;
+}
+
+.site-footer {
+  padding: 75px 0 50px 0 !important;
+}
+
+.site-footer-logo img {
+  display: inline-block;
+  height: 4em;  
+}
+
+.site-footer-social {
+  ul {
+    display: block;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+
+      :hover {
+        opacity: 1;
+      }
+
+      a {
+        color: $white;
+        opacity: .6;
+
+        i {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
 .title-404 {
   margin-top: 150px;
   margin-bottom: 200px;
