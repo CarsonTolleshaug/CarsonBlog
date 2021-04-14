@@ -1,8 +1,18 @@
 ---
-title: "About Us"
+title: "About Me"
 date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
+heading : "I'M CARSON TOLLESHAUG, A SOFTWARE DEVELOPER FOCUSED ON CODE QUALITY AND SCALABLE ARCHITECTURE."
+description : "I'm focused on Full-Stack Web Development. I practice Extreme Programming (XP)."
 expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+expertise_sectors: [
+    "C# / ASP.NET", 
+    "Object-Oriented Programming",
+    "Test Driven Development",
+    "Azure", 
+    "Kubernetes", 
+    "System Architecture", 
+    "CI / CD & Automation", 
+    "Authentication & Security", 
+    "Agile Process", 
+    "Design & UX"]
 ---
