@@ -1,0 +1,30 @@
+{{ with .Site.Data.technologies }}
+  {{ if .enable }}
+  <section class="site-tech">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>
+              {{ .title }}
+            </h2>
+          </div>
+        </div>
+        {{ range .products }}
+        <div class="col-lg-4 col-md-6">
+          <div class="site-tech-product">
+            <div class="site-tech-product-image">
+              <img src="{{ .image | absURL }}" alt="{{ .name }}">
+            </div>
+            <div class="site-tech-product-content">
+              <h3>{{ .name }}</h3>
+              <p>{{ .description }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

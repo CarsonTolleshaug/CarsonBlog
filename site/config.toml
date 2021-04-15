@@ -16,13 +16,13 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Projects"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
     name    = "Blog"
     url     = "blog"
     weight  = 3
+  [[menu.nav]]
+    name    = "Projects"
+    url     = "portfolio"
+    weight  = 4
 
 # Site Params
 [params]
