@@ -5,7 +5,7 @@ products  :
     name        : C# / ASP.NET
     description : C# Programming Language and Backend Web Services.
 
-  - image       : images/tech/docker.png
+  - image       : images/tech/docker.svg
     name        : Docker
     description : Microservice Containers. 
 
@@ -13,14 +13,14 @@ products  :
     name        : Kubernetes
     description : App Hosting and Container Orchestration Framework.
 
-  - image       : images/tech/azure.webp
+  - image       : images/tech/azure.svg
     name        : Azure
     description : PaaS and IaaS Backend Architecture.
 
-  - image       : images/tech/cicd.png
+  - image       : images/tech/cicd.svg
     name        : CI / CD Pipelines
     description : Technologies for managing Infrastruture.
 
-  - image       : images/tech/okta.png
+  - image       : images/tech/okta.svg
     name        : Okta
     description : User Authentication and Security.

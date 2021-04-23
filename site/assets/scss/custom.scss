@@ -50,6 +50,11 @@ body{
   text-align: center;
 }
 
+// .site-tech-product:hover {
+//   background-color: #eee;
+//   cursor: pointer;
+// }
+
 .site-tech {
   padding: 100px 0 100px 0;
   overflow: hidden;
@@ -57,6 +62,7 @@ body{
 
 .site-tech-product-image img {
   height: 7em;
+  padding: 1em;
 }
 
 .site-posts {
