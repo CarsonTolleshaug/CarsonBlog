@@ -35,7 +35,7 @@ body{
 }
 
 .site-navigation .nav-item:last-child {
-  margin-left: inherit !important;
+  margin-left: 0 !important;
 }
 
 .site-expertise {
@@ -46,13 +46,21 @@ body{
   text-align: center;
 }
 
+.site-tech-product {
+  text-align: center;
+}
+
 .site-tech {
-  padding: 120px 0;
+  padding: 100px 0 100px 0;
   overflow: hidden;
 }
 
 .site-tech-product-image img {
   height: 7em;
+}
+
+.site-posts {
+  padding: 50px 0 100px 0;
 }
 
 .site-footer {
@@ -92,7 +100,7 @@ body{
 }
 
 .title-404 {
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 200px;
 
   h1 {

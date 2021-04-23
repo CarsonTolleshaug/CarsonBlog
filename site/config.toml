@@ -33,8 +33,6 @@ summarylength = 25
   author = "Carson Tolleshaug"
   # Google Analitycs
   #googleAnalitycsID = "Your ID"
-  # We're using formspree.io for form handling, paste your formspree url below
-  #formspreeFormUrl  = "https://formspree.io/myykjpje"
 
   # Contact Form
   [params.contactForm]
@@ -59,8 +57,8 @@ summarylength = 25
     background_image      = "images/backgrounds/hero-area.webp"
     heading               = "Carson Tolleshaug"
     tagline               = "XP, Full-Stack, Software Engineer"
-    primary_button        = "Code Projects"
-    primary_button_url    = "portfolio"
+    primary_button        = "About Me"
+    primary_button_url    = "about"
     secondary_button      = "Recent Blog Posts"
     secondary_button_url  = "blog"
 

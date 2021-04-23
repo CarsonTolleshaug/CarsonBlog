@@ -1,6 +1,5 @@
-{{ with .Site.Params.portfolio }}
-  {{ if .enable }}
-  <section class="site-project" id="project">
+{{ with .Site.RegularPages }}
+  <section class="site-posts" id="posts">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -8,26 +7,35 @@
             <h2>Recent Blog Posts</h2>
           </div>
         </div>
-        {{ range first 4 (where $.Site.RegularPages "params.type" "blog") }}
-        <div class="col-lg-6 col-md-10 mx-auto">
-          <!-- <div class="site-project-item">
-            <div class="site-project-item-thumb">
-              <img src="{{ .Params.Image | absURL }}" alt="project-thumb">
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              {{ range first 2 (where . "Section" "blog")}}
+              <div class="col-lg-6">
+                <article class="site-blog-post">
+                  {{ with .Params.image }}
+                  <div class="site-blog-post-thumb">
+                    <img src="{{ . | absURL }}" alt="post-thumb">
+                  </div>
+                  {{ end }}
+                  <div class="site-blog-post-content">
+                    <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p>
+                      {{ .Summary }} ...
+                    </p>
+                    <a href="{{ .Permalink }}" class="read-more">read more</a>
+                  </div>
+                </article>
+              </div>
+              {{ end }}
             </div>
-            <div class="site-project-item-content">
-              <span>{{ delimit .Params.category ", " }}</span>
-              <h3>{{ .Title }}</h3>
-              <a href="{{ .Permalink }}" class="read-more">view project</a>
-            </div>
-          </div> -->
-          {{ . }}
+          </div>
         </div>
-        {{ end }}
         <div class="col-12 text-center text-lg-left">
-          <a href="portfolio" class="site-project-cta">MORE WORKS</a>
+          <a href="blog" class="site-project-cta">MORE</a>
         </div>
       </div>
     </div>
   </section>
-  {{ end }}
 {{ end }}
