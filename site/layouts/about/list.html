@@ -3,18 +3,21 @@
 <section class="site-about-header">
   <div class="container">
     <div class="row">
+      <div class="col-md-5 site-about-company">
+        <h1>
+          {{ .Params.heading }}
+        </h1>
+      </div>
+      <div class="col-md-7 site-about-photo">
+        <img src="{{ .Params.image }}" alt="photo" />
+      </div>
+    </div>
+    <div class="row">
       <div class="col-12">
-        <div class="site-about-wrapper">
-          <div class="site-about-company">
-            <h1>
-              {{ .Params.heading }}
-            </h1>
-          </div>
-          <div class="site-about-description">
-            <p>
-              {{ .Description }}
-            </p>
-          </div>
+        <div class="site-about-blurb">
+          <p>
+            {{ .Description | safeHTML }}
+          </p>
         </div>
       </div>
     </div>

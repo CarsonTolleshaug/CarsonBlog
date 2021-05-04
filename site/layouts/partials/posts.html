@@ -11,23 +11,7 @@
           <div class="container">
             <div class="row">
               {{ range first 2 (where . "Section" "blog")}}
-              <div class="col-lg-6">
-                <article class="site-blog-post">
-                  {{ with .Params.image }}
-                  <div class="site-blog-post-thumb">
-                    <img src="{{ . | absURL }}" alt="post-thumb">
-                  </div>
-                  {{ end }}
-                  <div class="site-blog-post-content">
-                    <span>{{ .PublishDate.Format "January 2, 2006" }}</span>
-                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p>
-                      {{ .Summary }} ...
-                    </p>
-                    <a href="{{ .Permalink }}" class="read-more">read more</a>
-                  </div>
-                </article>
-              </div>
+                {{ partial "post-preview.html" . }}
               {{ end }}
             </div>
           </div>

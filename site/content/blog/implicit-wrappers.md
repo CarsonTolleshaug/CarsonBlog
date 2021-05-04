@@ -1,9 +1,10 @@
 ---
-title: "The 10 Biggest Rebrands and Logo Designs of 2019"
-date: 2019-12-24T13:40:00+06:00
-image: images/blog/blog-post-01.jpg
+title: "Making Your Wrappers Better with Implicit Operators"
+date: 2021-05-03T11:00:00-07:00
+tags: ["C#", "Object-Oriented Design"]
+image: images/blog/blog-post-04.jpg
 feature_image: images/blog/blog-details-image.jpg
-author: Alexender Schoitiz
+tldr: next time you go to copy a big piece of code, maybe consider not doing that.
 ---
 ### Black Lines brand identity, by & Smith
 
@@ -30,7 +31,6 @@ The company was previously known as Hingston + Co. but has been given a complete
 Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
 
 > "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
-
 
 
 > Paul Rand, graphic designer

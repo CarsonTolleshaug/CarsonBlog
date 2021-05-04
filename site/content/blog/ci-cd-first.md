@@ -1,9 +1,10 @@
 ---
-title: "The 10 Biggest Product Stories of 2019"
-date: 2019-12-24T12:58:17+06:00
-image: images/blog/blog-post-04.jpg
+title: "Why You Should Do CI/CD First"
+date: 2021-05-02T11:00:00-07:00
+tags: ["CI/CD", "Opinion"]
+image: images/blog/blog-post-01.jpg
 feature_image: images/blog/blog-details-image.jpg
-author: Alexender Schoitiz
+tldr: save yourself a lot of headaches by implementing your automation before your code.
 ---
 ### Black Lines brand identity, by & Smith
 

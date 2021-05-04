@@ -1,9 +1,12 @@
 ---
 title: My Love-Hate Relationship with Copy & Paste
 date: 2021-04-29T11:00:00-07:00
-image: images/blog/blog-post-04.jpg
-feature_image: images/blog/blog-details-image.jpg
-tldr: next time you go to copy a big piece of code, maybe consider not doing that...
+tags: 
+- Opinion
+- Pair Programming
+image: images/blog/post-copy-paste.jpg
+feature_image: images/blog/details-copy-paste.jpg
+tldr: next time you go to copy a big piece of code, maybe consider not doing that.
 ---
 
 This may come as a shock to my fellow developers, but I'm not a big fan of copying and pasting code.
@@ -13,13 +16,15 @@ should have to live without, but I've noticed a trend among my peers that concer
 since the advent of smart phones, no one remembers phone numbers anymore? Well the same
 thing is happening with code. 
 
+### My Experience
+
 Tell me if this sounds familiar: a while back a pairing partner and I were tasked with creating a very simple C# class
 to process a string property of a POCO and throw an exception if it was invalid. My partner immediately
 started scowering the project for an example of code that did something similar to copy. When I explained that they
 wouldn't find anything because this was new functionality, they breifly shot me a look of terror, as if I had just told a 
 drug addict that their stash had run dry. They then proceded to go to stackoverflow in search of their next fix.
 
-The coworker in question was a decent developer, perfectly capable of writing the code from scrath.
+The coworker in question was a decent developer, perfectly capable of writing the code from scratch.
 The problem is that they began to rely on copying and pasting code to the point where writing new code felt
 wrong. This is not an isolated incident either. I've seen this happen several times over my relatively short career.
 

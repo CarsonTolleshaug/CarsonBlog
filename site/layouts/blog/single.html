@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section class="site-blog details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          <p><span>{{ .PublishDate.Format "January 2, 2006" }}</span></p>
+          <h2 class="blog-title">{{ .Title }}</h2>
+          <ul class="blog-tags">
+            {{ range .Params.tags }}
+              <li><a href="/tags/{{ replace . `#` `%23` | urlize }}/">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+          <img class="feature-image" src="{{ .Params.feature_image | absURL }}" alt="blog-feature-image">
+          <p class="blog-tldr"><span class="tldr-title">TLDR;</span><span class="tldr-content">{{ .Params.tldr }}</span></p>
+          
+          
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
