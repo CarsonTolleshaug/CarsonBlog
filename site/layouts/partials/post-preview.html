@@ -1,0 +1,29 @@
+<div class="col-lg-6">
+    <article class="site-blog-post">
+      {{ with .Params.image }}
+      <div class="site-blog-post-thumb">
+        <img src="{{ . | absURL }}" alt="post-thumb">
+      </div>
+      {{ else }}
+        <div style="height: 220px;"></div>
+      {{ end }}
+      <div class="site-blog-post-content">
+        {{ with .PublishDate }}
+          <span>{{ .Format "January 2, 2006" }}</span>
+        {{ end }}
+        <h3><a href="{{ replace .Permalink `#` `%23` }}">{{ .Title }}</a></h3>
+        <ul class="blog-tags">
+          {{ range .Params.tags }}
+            <li><a href="/tags/{{ replace . `#` `%23` | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+        {{ with .Summary }}
+        <p>
+          {{ . }} ...
+        </p>
+        {{ end }}
+
+        <a href="{{ replace .Permalink `#` `%23` }}" class="read-more">read more</a>
+      </div>
+    </article>
+  </div>

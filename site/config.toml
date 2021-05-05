@@ -16,13 +16,13 @@ summarylength = 25
     url     = "about"
     weight  = 2
   [[menu.nav]]
-    name    = "Projects"
-    url     = "portfolio"
-    weight  = 3
-  [[menu.nav]]
     name    = "Blog"
     url     = "blog"
     weight  = 3
+  [[menu.nav]]
+    name    = "Projects"
+    url     = "portfolio"
+    weight  = 4
 
 # Site Params
 [params]
@@ -33,25 +33,6 @@ summarylength = 25
   author = "Carson Tolleshaug"
   # Google Analitycs
   #googleAnalitycsID = "Your ID"
-  # We're using formspree.io for form handling, paste your formspree url below
-  #formspreeFormUrl  = "https://formspree.io/myykjpje"
-
-  # Contact Form
-  [params.contactForm]
-    placeholder_first_name        = "First Name"
-    placeholder_last_name         = "Last Name"
-    placeholder_email             = "Email"
-    placeholder_project_type      = "Project Type"
-    placeholder_about_the_project = "About the Project"
-    send_message                  = "Send Message"
-
-    [[params.contactForm.projectType]]
-      value = "gd"
-      title  = "Graphics Design"
-    [[params.contactForm.projectType]]
-      value = "wd"
-      title  = "Web Design"
-  
 
   # Banner Section
   [params.banner]
@@ -59,8 +40,8 @@ summarylength = 25
     background_image      = "images/backgrounds/hero-area.webp"
     heading               = "Carson Tolleshaug"
     tagline               = "XP, Full-Stack, Software Engineer"
-    primary_button        = "Code Projects"
-    primary_button_url    = "portfolio"
+    primary_button        = "About Me"
+    primary_button_url    = "about"
     secondary_button      = "Recent Blog Posts"
     secondary_button_url  = "blog"
 
@@ -70,52 +51,11 @@ summarylength = 25
     subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
 
   [params.call_to_action]
-    enable              = true
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
-    primary_button      = "Submit Query"
-    primary_button_url  = "contact"
-    secondary_button    = "Not Convinced"
-    secondary_button_url = "portfolio"
+    enable    = false
 
   [params.footer]
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
-      # Footer Social Media
-      [params.footer.social]
-        title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "#"
-      # Footer Service
-      [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+
+    [params.footer.social]
+      github    = "https://github.com/CarsonTolleshaug"
+      linkedin  = "https://www.linkedin.com/in/carson-tolleshaug"
+      email     = "carson.tolleshaug@gmail.com"

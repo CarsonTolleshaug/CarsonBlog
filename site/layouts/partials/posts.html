@@ -1,0 +1,25 @@
+{{ with .Site.RegularPages }}
+  <section class="site-posts" id="posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Recent Blog Posts</h2>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              {{ range first 2 (where . "Section" "blog")}}
+                {{ partial "post-preview.html" . }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center text-lg-left">
+          <a href="blog" class="site-project-cta">MORE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
