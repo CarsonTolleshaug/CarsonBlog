@@ -148,7 +148,7 @@ body{
   }
 }
 
-.site-blog-details { 
+.site-blog-details, .site-project-single { 
   * {
     color: $text-color-dark;
   }
@@ -159,6 +159,16 @@ body{
     padding: 0 5px;
     border-radius: 3px;
     border: 1px solid #ccc;
+  }
+  pre {
+    padding:10px;
+    border-radius: 4px;
+
+    code {
+      background-color: #272822;
+      border: none;
+      color: $gray;
+    }
   }
 }
 
