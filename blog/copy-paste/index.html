@@ -1,0 +1,126 @@
+<!doctype html><html lang=en-us><head>
+<meta charset=utf-8>
+<title>My Love-Hate Relationship with Copy & Paste</title>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name=author content="Carson Tolleshaug">
+<meta name=generator content="Hugo 0.87.0">
+<link rel=stylesheet href=https://carson.tolleshaug.org/css/bootstrap.min.css>
+<link rel=stylesheet href=https://carson.tolleshaug.org/font-awesome/css/font-awesome.min.css>
+<link href=https://carson.tolleshaug.org/scss/style.min.css rel=stylesheet>
+<link rel="shortcut icon" href=https://carson.tolleshaug.org/images/favicon.svg type=image/x-icon>
+<link rel=icon href=https://carson.tolleshaug.org/images/favicon.svg type=image/x-icon>
+</head><body><nav class="navbar navbar-expand-lg site-navigation">
+<div class=container>
+<a class=navbar-brand href=https://carson.tolleshaug.org/>
+<img src=https://carson.tolleshaug.org/images/logo.svg alt=logo>
+<span class=navbar-title>Carson's Blog</span>
+</a>
+<button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+<span class=icon-bar></span>
+</button>
+<div class="collapse navbar-collapse" id=sitenavbar>
+<ul class="navbar-nav ml-auto main-nav">
+<li class=nav-item>
+<a class=nav-link href=https://carson.tolleshaug.org/>Home</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://carson.tolleshaug.org/about>About</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://carson.tolleshaug.org/blog>Blog</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://carson.tolleshaug.org/portfolio>Projects</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<main>
+<section class="site-blog details">
+<div class=container>
+<div class="row justify-content-center">
+<div class=col-lg-8>
+<article class=site-blog-details>
+<p><span>April 29, 2021</span></p>
+<h2 class=blog-title>My Love-Hate Relationship with Copy & Paste</h2>
+<ul class=blog-tags>
+<li><a href=/tags/opinion/>Opinion</a></li>
+<li><a href=/tags/pair-programming/>Pair Programming</a></li>
+</ul>
+<img class=feature-image src=https://carson.tolleshaug.org/images/blog/details-copy-paste.jpg alt=blog-feature-image>
+<p class=blog-tldr><span class=tldr-title>TLDR;</span><span class=tldr-content>next time you go to copy a big piece of code, maybe consider not doing that.</span></p>
+<p>This may come as a shock to my fellow developers, but I&rsquo;m not a big fan of copying and pasting code.</p>
+<p>Hot takes aside, I recognise that the copy-paste functionality is a useful tool, which no developer
+should have to live without, but I&rsquo;ve noticed a trend among my peers that concerns me. You know how
+since the advent of smart phones, no one remembers phone numbers anymore? Well the same
+thing is happening with code.</p>
+<h3 id=my-experience>My Experience</h3>
+<p>Tell me if this sounds familiar: a while back a pairing partner and I were tasked with creating a very simple C# class
+to process a string property of a POCO and throw an exception if it was invalid. My partner immediately
+started scowering the project for an example of code that did something similar to copy. When I explained that they
+wouldn&rsquo;t find anything because this was new functionality, they breifly shot me a look of terror, as if I had just told a
+drug addict that their stash had run dry. They then proceded to go to stackoverflow in search of their next fix.</p>
+<p>The coworker in question was a decent developer, perfectly capable of writing the code from scratch.
+The problem is that they began to rely on copying and pasting code to the point where writing new code felt
+wrong. This is not an isolated incident either. I&rsquo;ve seen this happen several times over my relatively short career.</p>
+<h3 id=so-what-who-cares>So what? Who Cares?</h3>
+<p>I care. I care because it creates five major issues for me as a pairing partner:</p>
+<ol>
+<li>
+<p>It slows down our speed as a pairing team, if you <em>have to</em> copy-paste <em>everything</em>.</p>
+</li>
+<li>
+<p>It&rsquo;s sloppy, and often leads to vestigial peices of code, or worse, creates unstable code.</p>
+</li>
+<li>
+<p>It reduces code readibility.</p>
+</li>
+<li>
+<p>It leads to code duplication, which ultimately makes code harder to maintain.</p>
+</li>
+<li>
+<p>It reduces our understanding of the code.</p>
+</li>
+</ol>
+<p>That last one might need some clarification. When I see people copy and paste a big chunk of code from Stack Overflow or
+another project, the next thing I see them do is run the code to see if it works. If it does, the next step is to
+completely forget we ever added it to our code in the first place. I could watch someone copy and paste <code>X</code> into our code and then later ask them about some attribute of <code>X</code> only for them to stare at me like a deer in the headlights because they&rsquo;ve never even heard of <code>X</code>, despite <strong>literally just adding <code>X</code> to the code</strong>.</p>
+<h3 id=so-you-want-everyone-to-stop-using-copy-paste-then>So you want everyone to stop using copy-paste then?</h3>
+<p>No. I wouldn&rsquo;t have titled this article &ldquo;My <strong>Love-Hate</strong> Relationship with Copy & Paste&rdquo; if I didn&rsquo;t also have some
+good things to say about copying and/or pasting:</p>
+<ul>
+<li>Spellign Erros. I spell bad, but I want to spell good, and copy-paste helps me spell things gooder.</li>
+<li>Copying and pasting can prevent trivial mistakes and syntax errors.</li>
+<li>It can save time when writing boilerplate code (but I think many people underestimate the cognitive benefits of repetition)</li>
+</ul>
+<p>I&rsquo;m not saying don&rsquo;t copy and paste. But next time you go to copy a big piece of code, maybe consider not doing that.</p>
+</article>
+</div>
+</div>
+</div>
+</section>
+</main><footer class=site-footer>
+<div class=container>
+<div class=row>
+<div class="col-12 col-center">
+<div class=site-footer-logo><a href=https://carson.tolleshaug.org/><img src=https://carson.tolleshaug.org/images/logo-white.svg alt=logo-footer></a></div>
+<div class=site-footer-social>
+<ul class=icons>
+<li><a target=_blank href=https://github.com/CarsonTolleshaug><i class="fa fa-github"></i></a></li>
+<li><a target=_blank href=https://www.linkedin.com/in/carson-tolleshaug><i class="fa fa-linkedin"></i></a></li>
+<li><a target=_blank href=mailto:carson.tolleshaug@gmail.com><i class="fa fa-envelope"></i></a></li>
+</ul>
+<p>Carson Tolleshaug &copy; 2021</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src=https://carson.tolleshaug.org/js/formhandler.min.js></script>
+<script src=https://carson.tolleshaug.org/js/vendor.min.js></script>
+<script src=https://carson.tolleshaug.org/js/script.min.js></script></body>
+</html>
