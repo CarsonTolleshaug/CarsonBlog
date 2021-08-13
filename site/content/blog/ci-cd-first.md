@@ -1,37 +1,47 @@
 ---
 title: "Why You Should Do CI/CD First"
-date: 2021-05-02T11:00:00-07:00
+date: 2021-07-12T11:00:00-07:00
 tags: ["CI/CD", "Opinion"]
-image: images/blog/blog-post-01.jpg
-feature_image: images/blog/blog-details-image.jpg
-tldr: save yourself a lot of headaches by implementing your automation before your code.
+image: images/blog/post-ci-cd-first.jpg
+feature_image: images/blog/details-ci-cd-first.jpg
+tldr: You save yourself a lot of headaches by implementing your automation before your code.
 ---
-### Black Lines brand identity, by & Smith
 
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
+If you're like me, when you start a new project it's tempting to want to dive right into the code. Writing code is 
+the best part of being a developer after all. But if you can exercise a little self restraint you'll thank yourself 
+in the long run.
 
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+When I start a new project the *very first* thing I try to do is get my automation in place. I've found this saves 
+me a lot of time in the long run.
 
-The company was previously known as Hingston + Co. but has been given a complete rebrand — including a new logo, tap badges, website and branded material — by London-based design studio & Smith. The new identity is based on the Kandinsky abstract painting, Black Lines, and true to its name, is mostly black and white with a few flashes of colour. According to & Smith, the identity brings together “art and science” and has been brought to life through collaborations with nine illustrators.
+My pairing partners sometimes misconstrue my desire to start with CI/CD as a love for writing CI/CD. I'll be honest, 
+I don't really enjoy writing automation which I think most developers can relate to. All the more reason to write it
+first, because...
 
-1. ROFL means Rolling on floor laughing.
-2. STFU means Shut the *freak* up.
-3. LMK means Let me know.
-4. ILY means I love you.
-5. YOLO means You only live once.
-6. SMH means Shaking my head.
+### 1. Writing Automation is easier when the code is simple
 
-![blog-details-image-02](https://user-images.githubusercontent.com/16266381/71399826-2009b380-264f-11ea-9bc3-59d7fa9a9994.jpg)
+When there isn't much beyond boilerplate code, there are less things that can go wrong. Writing CI/CD is hard.
+There's often no way to test things locally, so there may be a long time between when you make a change and when you
+see if the change was successful or not. Don't make it harder on yourself by adding possible code failures to the mix.
+Which brings me to...
 
-Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.
+### 2. Smaller code fails faster
 
-> "The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring."
+"Cycle time" is what I call the time between when you make a change and when you see if the change was successful or 
+not. I generally try to do everything in my power to keep cycle time as **low as possible**. Shorter cycle times mean
+getting to the final solution faster, and smaller code means faster cycle times.
 
+### 3. No one "forgets" to write the code
 
-> Paul Rand, graphic designer
+If you write the code first, you may put off automating the deployment in favor of manually deploying to save time.
+You may then accidentally tell your product owner or Scrum master that you're "done" when your code is complete, forgetting
+that you still need to write the automation. I've never seen this happen the other way around. No one "forgets" to
+write the code.
 
+### 4. Eat your meat, so you can have your pudding
+
+I know this argument isn't very appealing, but the reality is that the sooner you finish the automation, the sooner
+you can focus on the good part: writing code.
+
+So those are my 4 reasons for writing CI/CD first when starting a new project. You save yourself a lot of headaches 
+by implementing your automation before your code. Try this on your next greenfield project, you'll thank me later.
