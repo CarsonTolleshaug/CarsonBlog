@@ -14,7 +14,7 @@
 <div class=container>
 <a class=navbar-brand href=https://carson.tolleshaug.org/>
 <img src=https://carson.tolleshaug.org/images/logo.svg alt=logo>
-<span class=navbar-title>Carson's Blog</span>
+<span class=navbar-title>Carson Tolleshaug</span>
 </a>
 <button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar>
 <span class=icon-bar></span>
@@ -45,41 +45,41 @@
 <div class="row justify-content-center">
 <div class=col-lg-8>
 <article class=site-blog-details>
-<p><span>May 2, 2021</span></p>
+<p><span>July 12, 2021</span></p>
 <h2 class=blog-title>Why You Should Do CI/CD First</h2>
 <ul class=blog-tags>
 <li><a href=/tags/ci/cd/>CI/CD</a></li>
 <li><a href=/tags/opinion/>Opinion</a></li>
 </ul>
-<img class=feature-image src=https://carson.tolleshaug.org/images/blog/blog-details-image.jpg alt=blog-feature-image>
-<p class=blog-tldr><span class=tldr-title>TLDR;</span><span class=tldr-content>save yourself a lot of headaches by implementing your automation before your code.</span></p>
-<h3 id=black-lines-brand-identity-by--smith>Black Lines brand identity, by & Smith</h3>
-<p>Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.</p>
-<ol>
-<li>ROFL means Rolling on floor laughing.</li>
-<li>STFU means Shut the <em>freak</em> up.</li>
-<li>LMK means Let me know.</li>
-<li>ILY means I love you.</li>
-<li>YOLO means You only live once.</li>
-<li>SMH means Shaking my head.</li>
-</ol>
-<p>The company was previously known as Hingston + Co. but has been given a complete rebrand — including a new logo, tap badges, website and branded material — by London-based design studio & Smith. The new identity is based on the Kandinsky abstract painting, Black Lines, and true to its name, is mostly black and white with a few flashes of colour. According to & Smith, the identity brings together “art and science” and has been brought to life through collaborations with nine illustrators.</p>
-<ol>
-<li>ROFL means Rolling on floor laughing.</li>
-<li>STFU means Shut the <em>freak</em> up.</li>
-<li>LMK means Let me know.</li>
-<li>ILY means I love you.</li>
-<li>YOLO means You only live once.</li>
-<li>SMH means Shaking my head.</li>
-</ol>
-<p><img src=https://user-images.githubusercontent.com/16266381/71399826-2009b380-264f-11ea-9bc3-59d7fa9a9994.jpg alt=blog-details-image-02></p>
-<p>Black Lines wants it to be as easy to serve a Negroni as it is a pint of lager. The drinks company is seeking to revolutionise the bar experience by serving cocktails by draught with a changing menu of drinks (as well as same favourite stand-bys). A pink grapefruit spritz was served through the summer while a new pear and white tea fizz joins the line-up for winter.</p>
-<blockquote>
-<p>&ldquo;The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.&rdquo;</p>
-</blockquote>
-<blockquote>
-<p>Paul Rand, graphic designer</p>
-</blockquote>
+<img class=feature-image src=https://carson.tolleshaug.org/images/blog/details-ci-cd-first.jpg alt=blog-feature-image>
+<p class=blog-tldr><span class=tldr-title>TLDR;</span><span class=tldr-content>You save yourself a lot of headaches by implementing your automation before your code.</span></p>
+<p>If you&rsquo;re like me, when you start a new project it&rsquo;s tempting to want to dive right into the code. Writing code is
+the best part of being a developer after all. But if you can exercise a little self restraint you&rsquo;ll thank yourself
+in the long run.</p>
+<p>When I start a new project the <em>very first</em> thing I try to do is get my automation in place. I&rsquo;ve found this saves
+me a lot of time in the long run.</p>
+<p>My pairing partners sometimes misconstrue my desire to start with CI/CD as a love for writing CI/CD. I&rsquo;ll be honest,
+I don&rsquo;t really enjoy writing automation which I think most developers can relate to. All the more reason to write it
+first, because&mldr;</p>
+<h3 id=1-writing-automation-is-easier-when-the-code-is-simple>1. Writing Automation is easier when the code is simple</h3>
+<p>When there isn&rsquo;t much beyond boilerplate code, there are less things that can go wrong. Writing CI/CD is hard.
+There&rsquo;s often no way to test things locally, so there may be a long time between when you make a change and when you
+see if the change was successful or not. Don&rsquo;t make it harder on yourself by adding possible code failures to the mix.
+Which brings me to&mldr;</p>
+<h3 id=2-smaller-code-fails-faster>2. Smaller code fails faster</h3>
+<p>&ldquo;Cycle time&rdquo; is what I call the time between when you make a change and when you see if the change was successful or
+not. I generally try to do everything in my power to keep cycle time as <strong>low as possible</strong>. Shorter cycle times mean
+getting to the final solution faster, and smaller code means faster cycle times.</p>
+<h3 id=3-no-one-forgets-to-write-the-code>3. No one &ldquo;forgets&rdquo; to write the code</h3>
+<p>If you write the code first, you may put off automating the deployment in favor of manually deploying to save time.
+You may then accidentally tell your product owner or Scrum master that you&rsquo;re &ldquo;done&rdquo; when your code is complete, forgetting
+that you still need to write the automation. I&rsquo;ve never seen this happen the other way around. No one &ldquo;forgets&rdquo; to
+write the code.</p>
+<h3 id=4-eat-your-meat-so-you-can-have-your-pudding>4. Eat your meat, so you can have your pudding</h3>
+<p>I know this argument isn&rsquo;t very appealing, but the reality is that the sooner you finish the automation, the sooner
+you can focus on the good part: writing code.</p>
+<p>So those are my 4 reasons for writing CI/CD first when starting a new project. You save yourself a lot of headaches
+by implementing your automation before your code. Try this on your next greenfield project, you&rsquo;ll thank me later.</p>
 </article>
 </div>
 </div>

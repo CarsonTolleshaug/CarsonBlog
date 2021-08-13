@@ -1,6 +1,6 @@
 <!doctype html><html lang=en-us><head>
 <meta charset=utf-8>
-<title>Tags</title>
+<title>Responsible Chains</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1">
 <meta name=author content="Carson Tolleshaug">
@@ -14,7 +14,7 @@
 <div class=container>
 <a class=navbar-brand href=https://carson.tolleshaug.org/>
 <img src=https://carson.tolleshaug.org/images/logo.svg alt=logo>
-<span class=navbar-title>Carson's Blog</span>
+<span class=navbar-title>Carson Tolleshaug</span>
 </a>
 <button class="navbar-toggler collapsed" type=button data-toggle=collapse data-target=#sitenavbar>
 <span class=icon-bar></span>
@@ -40,53 +40,36 @@
 </div>
 </nav>
 <main>
-<section class=site-blog-header>
-<div class=container>
-<div class="row justify-content-center">
-<div class="col-lg-8 text-center">
-<h2>Tags</h2>
-<p>
-</p>
-</div>
-</div>
-</div>
-</section>
-<section class=site-blog>
+<section class=site-project-single-section>
 <div class=container>
 <div class=row>
-<div class=col-lg-6>
-<article class=site-blog-post>
-<div style=height:220px></div>
-<div class=site-blog-post-content>
-<h3><a href=https://carson.tolleshaug.org/tags/ci/cd/>CI/CD</a></h3>
-<ul class=blog-tags>
-</ul>
-<a href=https://carson.tolleshaug.org/tags/ci/cd/ class=read-more>read more</a>
+<div class="col-lg-8 mx-auto">
+<div class=site-project-single>
+<h1>
+Responsible Chains
+</h1>
+<div class=site-project-single-description>
+<p><a href=https://github.com/CarsonTolleshaug/ResponsibleChains/actions/workflows/build.yml><img src=https://github.com/CarsonTolleshaug/ResponsibleChains/actions/workflows/build.yml/badge.svg alt="Build and Release"></a>
+<a href=https://nuget.org/packages/ResponsibleChains><img src=https://img.shields.io/nuget/v/ResponsibleChains.svg alt=NuGet></a>
+<a href=https://nuget.org/packages/ResponsibleChains><img src=https://img.shields.io/nuget/dt/ResponsibleChains.svg alt=NuGet></a></p>
+<p><code>ResponsibleChains</code> is a library for easily implementing a chain of responsibility pattern.</p>
+<p>After installing the NuGet package, a chain of responsibility can be added to the dependency injection in startup.</p>
+<p>Example:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-c# data-lang=c#><span style=color:#66d9ef>public</span> <span style=color:#66d9ef>void</span> ConfigureServices(IServiceCollection services)
+{
+    services.AddResponsibleChain&lt;IMyChain&gt;()
+        .WithLink&lt;MyFirstLink&gt;()
+        .WithLink&lt;MySecondLink&gt;()
+        .WithLink&lt;DefaultLink&gt;();
+
+    ...
+}
+</code></pre></div><p>See <a href=https://github.com/CarsonTolleshaug/ResponsibleChains>https://github.com/CarsonTolleshaug/ResponsibleChains</a> for more info.</p>
+<hr>
+<p><em>This project is feature complete. Use github issues to suggest new features or report a bug.</em></p>
 </div>
-</article>
+<div class=site-project-single-image>
 </div>
-<div class=col-12>
-<div class=site-blog-pagination>
-<ul class="pagination pagination-default">
-<li class=page-item>
-<a href=/tags/ aria-label=First class=page-link role=button><span aria-hidden=true>&#171;&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/tags/ aria-label=Previous class=page-link role=button><span aria-hidden=true>&#171;</span></a>
-</li>
-<li class=page-item>
-<a href=/tags/ aria-label="Page 1" class=page-link role=button>1</a>
-</li>
-<li class="page-item active">
-<a href=# aria-current=page aria-label="Page 2" class=page-link role=button>2</a>
-</li>
-<li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=Next class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;</span></a>
-</li>
-<li class="page-item disabled">
-<a href=# aria-disabled=true aria-label=Last class=page-link role=button tabindex=-1><span aria-hidden=true>&#187;&#187;</span></a>
-</li>
-</ul>
 </div>
 </div>
 </div>
