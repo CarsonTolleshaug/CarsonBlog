@@ -6,7 +6,7 @@ tags:
 - Pair Programming
 image: images/blog/post-copy-paste.jpg
 feature_image: images/blog/details-copy-paste.jpg
-tldr: next time you go to copy a big piece of code, maybe consider not doing that.
+tldr: Next time you go to copy a big piece of code, maybe consider not doing that.
 ---
 
 This may come as a shock to my fellow developers, but I'm not a big fan of copying and pasting code.
@@ -58,3 +58,4 @@ spell-checker IDE plugin to an essential part of the developer toolkit.
 - It can save time when writing boilerplate code (but I think many people underestimate the cognitive benefits of repetition)
 
 I'm not saying don't ever copy and paste. But next time you go to copy a big piece of code, maybe consider not doing that. 
+I really do feel it can be an addiction. Good in moderation, but too much can lead to trouble.

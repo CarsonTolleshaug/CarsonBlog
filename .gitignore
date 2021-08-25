@@ -105,3 +105,6 @@ dist
 
 # Hugo build folder
 public/
+
+# Hugo auto-gen folder
+_gen/

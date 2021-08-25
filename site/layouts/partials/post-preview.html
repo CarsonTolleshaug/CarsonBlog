@@ -11,15 +11,15 @@
         {{ with .PublishDate }}
           <span>{{ .Format "January 2, 2006" }}</span>
         {{ end }}
-        <h3><a href="{{ replace .Permalink `#` `%23` }}">{{ .Title }}</a></h3>
+        <h4><a href="{{ replace .Permalink `#` `%23` }}">{{ .Title }}</a></h4>
         <ul class="blog-tags">
           {{ range .Params.tags }}
             <li><a href="/tags/{{ replace . `#` `%23` | urlize }}/">{{ . }}</a></li>
           {{ end }}
         </ul>
-        {{ with .Summary }}
+        {{ with .Params.tldr }}
         <p>
-          {{ . }} ...
+          {{ . }}
         </p>
         {{ end }}
 

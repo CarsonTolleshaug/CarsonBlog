@@ -181,6 +181,20 @@ body{
       color: $gray;
     }
   }
+  blockquote {
+    padding-left: 20px;
+    font-style: italic;
+    p {
+      font-size: inherit !important;
+    }
+  }
+  h3 {
+    padding-top: 15px;
+  }
+}
+
+.site-blog-post {
+  padding-bottom: 120px;
 }
 
 .read-more {
